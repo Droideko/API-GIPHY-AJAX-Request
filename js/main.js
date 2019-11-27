@@ -50,5 +50,5 @@ async function getImage(url, img, p, a, i) {
    title.classList.add('container-images__block-title')   
    title.textContent = user.data.title || `${tag}`;
    imagesBlock[i].append(title);
-   return true;
+   // return true;
 }
